@@ -5,8 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Hello World</h1>
+    <form id="emailForm" action="/submit" method="post">Enter email: 
+        <input type="email" id="emailInput" name="email" placeholder="johndoe@gmail.com" required>
+        <button type="button" id="submitButton" onclick="console.log('clicked')">Submit</button>
+    </form>
     
+    <h2>Form 2</h2>
+    <form id="usernameForm" action="/submit" method="post">Enter Username:
+        <input type="text" id="usernameInput" name="username" placeholder="JohnDoe123" required>
+        <button type="button" id="submitButton2" onclick="console.log('username')">Submit</button>
+
+    </form>
+    <script src="index.js">
+        
+    </script>
 </body>
+
 </html>
